@@ -674,6 +674,15 @@
 		font-size: 0.6em;
 		line-height: 1.5em;
 	}
+
+	/* custom format for about me section */
+	#aboutme .card_wrapper {
+		text-align: justify;
+		text-transform: none !important;
+		letter-spacing: 0.5px;
+		line-height: 1.5em;
+	}
+
 	#publications .card_wrapper {
 		text-align: left;
 		text-transform: none !important;
@@ -815,11 +824,12 @@
 		}
 
 /* Main */
+/* THIS IS THE MAIN LANDING PAGE CARD */
 
 	#main {
 		position: relative;
 		max-width: 100%;
-		min-width: 27em;
+		min-width: 29em;
 		cursor: default;
 		text-align: center;
 		-moz-transform-origin: 50% 50%;
