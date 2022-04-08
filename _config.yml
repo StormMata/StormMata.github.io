@@ -83,7 +83,7 @@ author:
   name             : "Storm Mata"
   avatar           : "StormBioPic.jpeg"
   bio              : "PhD student"
-  location         : "Massachusetts Institute of\\ Technology"
+  location         : "Massachusetts Institute of\n Technology"
   employer         : "https://www.howlandlab.com"
   pubmed           : "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
   googlescholar    : "http://yourfullgooglescholarurl.com"
