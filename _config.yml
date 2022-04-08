@@ -81,7 +81,7 @@ analytics:
 # Site Author
 author:
   name             : "Storm Mata"
-  avatar           : "/images/StormBioPic.jpeg"
+  avatar           : "StormBioPic.jpeg"
   bio              : "PhD student"
   location         : "Massachusetts Institute of Technology"
   employer         : "https://www.howlandlab.com"
