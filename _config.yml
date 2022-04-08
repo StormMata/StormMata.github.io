@@ -99,10 +99,10 @@ author:
   stackoverflow    : "http://stackoverflow.com/users/123456/username"
   twitter          : "replacethistwitterhandle"
   youtube          : "https://www.howlandlab.com"
-  wikipedia        : "https://www.howlandlab.com"
-  building: "https://www.howlandlab.com"
-  instagram        : "https://www.howlandlab.com"
-  doi        : "https://www.howlandlab.com"
+  whatsapp         : "https://www.howlandlab.com"
+  building         : "https://www.howlandlab.com"
+  wordpress        : "https://www.howlandlab.com"
+  yahoo            : "https://www.howlandlab.com"
 
 # Reading Files
 include:
