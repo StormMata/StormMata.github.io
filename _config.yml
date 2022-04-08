@@ -100,8 +100,9 @@ author:
   twitter          : "replacethistwitterhandle"
   youtube          : "https://www.howlandlab.com"
   wikipedia        : "https://www.howlandlab.com"
-  internet-explorer: "https://www.howlandlab.com"
+  building: "https://www.howlandlab.com"
   instagram        : "https://www.howlandlab.com"
+  envelope        : "https://www.howlandlab.com"
 
 # Reading Files
 include:
