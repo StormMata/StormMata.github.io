@@ -7,9 +7,9 @@
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Your Name / Site Title"
+title                    : "Wind Energy"
 title_separator          : "-"
-name                     : &name "Your Name"
+name                     : &name "Storm Mata"
 description              : &description "personal description"
 url                      : https://stormmata.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
@@ -86,23 +86,11 @@ author:
   location         : "Massachusetts Institute   of Technology"
   employer         : [Lab Group](https://www.howlandlab.com)
   googlescholar    : "http://yourfullgooglescholarurl.com"
-  email            :
+  email            : "storm22@mit.edu"
   researchgate     : "https://www.researchgate.net/profile/yourprofile"
-  bitbucket        : "https://www.howlandlab.com"
-  facebook         : "https://www.howlandlab.com"
   github           : "https://github.com/StormMata"
-  keybase          : "https://www.howlandlab.com"
-  instagram        : "https://www.howlandlab.com"
-  lastfm           : "https://www.howlandlab.com"
-  linkedin         : "https://www.howlandlab.com"
+  linkedin         : "https://www.linkedin.com/in/stormmata/"
   orcid            : "http://orcid.org/yourorcidurl"
-  stackoverflow    : "http://stackoverflow.com/users/123456/username"
-  twitter          : "replacethistwitterhandle"
-  youtube          : "https://www.howlandlab.com"
-  whatsapp         : "https://www.howlandlab.com"
-  building         : "https://www.howlandlab.com"
-  wordpress        : "https://www.howlandlab.com"
-  yahoo            : "https://www.howlandlab/people.com"
 
 # Reading Files
 include:
