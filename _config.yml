@@ -90,6 +90,10 @@ author:
   github           : "https://github.com/StormMata"
   linkedin         : "https://www.linkedin.com/in/stormmata/"
   orcid            : "http://orcid.org/yourorcidurl"
+  links:
+    - label: "Made Mistakes"
+      icon: "fas fa-fw fa-link"
+      url: "https://mademistakes.com"
 
 # Reading Files
 include:
