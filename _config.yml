@@ -84,7 +84,7 @@ author:
   avatar           : "StormBioPic.jpeg"
   bio              : "PhD student in Environmental Engineering"
   location         : "Massachusetts Institute   of Technology"
-  employer         : [Lab Group](https://www.howlandlab.com)
+  # employer         : [Lab Group](https://www.howlandlab.com)
   googlescholar    : "http://yourfullgooglescholarurl.com"
   email            : "storm22@mit.edu"
   researchgate     : "https://www.researchgate.net/profile/yourprofile"
