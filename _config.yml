@@ -77,14 +77,16 @@ analytics:
   google:
     tracking_id          :
 
+header:
+  image: /assets/images/bg.jpg
 
 # Site Author
 author:
   name             : "Storm Mata"
   avatar           : "StormBioPic.jpeg"
   bio              : "PhD Student in Environmental Engineering"
-  location         : "Massachusetts Institute break-word; of Technology"
-  employer         : "[link](https://www.howlandlab.com "Lab Group")"
+  location         : "Massachusetts Institute of Technology"
+  employer         : ""
   googlescholar    : "http://yourfullgooglescholarurl.com"
   email            : "storm22@mit.edu"
   researchgate     : "https://www.researchgate.net/profile/yourprofile"
