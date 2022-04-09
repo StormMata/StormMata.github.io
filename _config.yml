@@ -7,7 +7,7 @@
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Wind Energy"
+title                    : "Renewable Energy Systems"
 title_separator          : "-"
 name                     : &name "Storm Mata"
 description              : &description "personal description"
@@ -82,9 +82,9 @@ analytics:
 author:
   name             : "Storm Mata"
   avatar           : "StormBioPic.jpeg"
-  bio              : "PhD student in Environmental Engineering"
+  bio              : "PhD Student in Environmental Engineering"
   location         : "Massachusetts Institute break-word; of Technology"
-  # employer         : [Lab Group](https://www.howlandlab.com)
+  employer         : [link](https://www.howlandlab.com "Lab Group")
   googlescholar    : "http://yourfullgooglescholarurl.com"
   email            : "storm22@mit.edu"
   researchgate     : "https://www.researchgate.net/profile/yourprofile"
