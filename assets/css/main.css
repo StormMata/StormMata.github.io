@@ -506,6 +506,9 @@ input, select, textarea {
 		line-height: 1.75em;
 		color: #39454b;
 		letter-spacing: 0.025em;
+        
+        /* This is the centering for content boxes */
+        text-align: justify;
 	}
 
 		@media screen and (max-width: 1920px) {
@@ -2244,11 +2247,12 @@ input, select, textarea {
 /* Intro */
 
 	#intro {
-		background: url("images/overlay.png"), url("../../images/intro.jpg");
+		background: url("images/overlay.png"), url("../../images/bg1Crop.jpg");
 		background-size: 256px 256px, cover;
 		background-attachment: fixed, fixed;
 		background-position: top left, bottom center;
 		background-repeat: repeat, no-repeat;
+
 	}
 
 /* One */
