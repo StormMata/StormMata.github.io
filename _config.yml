@@ -48,6 +48,10 @@ staticman:
         format           : "iso8601" # "iso8601" (default), "timestamp-seconds", "timestamp-milliseconds"
 atom_feed:
   path                   : # blank (default) uses feed.xml
+    links:
+    - label: "Made Mistakes"
+      icon: "fas fa-fw fa-link"
+      url: "https://mademistakes.com"
 
 # SEO Related
 google_site_verification :
@@ -90,10 +94,10 @@ author:
   github           : "https://github.com/StormMata"
   linkedin         : "https://www.linkedin.com/in/stormmata/"
   orcid            : "http://orcid.org/yourorcidurl"
-  links:
-    - label: "Made Mistakes"
-      icon: "fas fa-fw fa-link"
-      url: "https://mademistakes.com"
+links:
+  - label: "Made Mistakes"
+    icon: "fas fa-fw fa-link"
+    url: "https://mademistakes.com"
 
 # Reading Files
 include:
