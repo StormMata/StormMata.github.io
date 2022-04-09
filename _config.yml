@@ -82,9 +82,9 @@ analytics:
 author:
   name             : "Storm Mata"
   avatar           : "StormBioPic.jpeg"
-  bio              : "PhD student"
-  location         : "Massachusetts Institute\nof Technology"
-  employer         : "https://www.howlandlab.com"
+  bio              : "PhD student in Environmental Engineering"
+  location         : "Massachusetts Institute   of Technology"
+  employer         : [Lab Group](https://www.howlandlab.com)
   googlescholar    : "http://yourfullgooglescholarurl.com"
   email            :
   researchgate     : "https://www.researchgate.net/profile/yourprofile"
