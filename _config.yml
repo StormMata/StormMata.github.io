@@ -81,6 +81,14 @@ analytics:
   google:
     tracking_id          :
 
+excerpt: "This post should display a **header with an overlay image**, if the theme supports it."
+header:
+  overlay_image: /assets/images/unsplash-image-1.jpg
+  caption: "Photo credit: [**Unsplash**](https://unsplash.com)"
+  actions:
+    - label: "More Info"
+      url: "https://unsplash.com"
+
 # Site Author
 author:
   name             : "Storm Mata"
@@ -94,10 +102,6 @@ author:
   github           : "https://github.com/StormMata"
   linkedin         : "https://www.linkedin.com/in/stormmata/"
   orcid            : "http://orcid.org/yourorcidurl"
-links:
-  - label: "Made Mistakes"
-    icon: "fas fa-fw fa-link"
-    url: "https://mademistakes.com"
 
 # Reading Files
 include:
