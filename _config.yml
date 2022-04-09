@@ -77,9 +77,6 @@ analytics:
   google:
     tracking_id          :
 
-header:
-  image: /assets/images/bg.jpg
-
 # Site Author
 author:
   name             : "Storm Mata"
