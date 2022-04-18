@@ -1944,7 +1944,7 @@ input, select, textarea {
 
 /* THIS IS THE BACKGROUND HEIGHT */
 		.main.fullscreen {
-			min-height: 140%;
+			min-height: 130%;
 		}
 
 		.main.style1 {
@@ -2087,7 +2087,7 @@ input, select, textarea {
 /* THIS IS THE CARD WIDTH */
 
 			.main.style2 .content {
-				width: 60%;
+				width: 65%;
 			}
 
 		}
