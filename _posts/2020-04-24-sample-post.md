@@ -1,7 +1,7 @@
 ---
 title: Modeling the effect of wind speed and direction shear on utility-scale wind turbine power production
 layout: post
-post-image: "/assets/images/Scree"
+post-image: "/assets/images/shear_veer_2024"
 description: A sample post to show how the content will look and how will different
   headlines, quotes and codes will be represented.
 tags:
