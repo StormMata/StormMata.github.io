@@ -2,7 +2,7 @@
 title: Modeling the effect of wind speed and direction shear on utility-scale wind turbine power production
 layout: post
 post-image: 
-description: Authors: Storm A. Mata
+description: Authors Storm A. Mata
 tags:
 - blade element theory
 - equivalent wind speed
