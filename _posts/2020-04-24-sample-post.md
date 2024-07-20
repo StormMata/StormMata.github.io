@@ -2,7 +2,7 @@
 title: Modeling the effect of wind speed and direction shear on utility-scale wind turbine power production
 layout: post
 post-image: "/assets/images/shear_veer_2024.png"
-description: Authors: Storm A. Mata, Juan José Pena Martínez, Jesús Bas Quesada, Felipe Palou Larrañaga, Neeraj Yadav, Jasvipul S. Chawla, Varun Sivaram, and Michael F. Howland
+description: Authors: Storm A. Mata
 tags:
 - blade element theory
 - equivalent wind speed
