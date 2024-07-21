@@ -4,25 +4,15 @@ layout: compress
 
 <!DOCTYPE html>
 <html>
-
-<head>
-    <script>
-      function resizeIframe(obj) {
-        obj.style.height = obj.contentWindow.document.documentElement.scrollHeight + 'px';
-      }
-    </script>
-</head>
-    
 {% include head.html %}
 
 <body>
     {% include navbar.html %}
-    <div class="content is-marginless">
+    <div class="pdf-container">
         <iframe
             src="https://stormmata.github.io/assets/images/mata_cv.pdf#toolbar=0&navpanes=0&scrollbar=0"
             frameBorder="0"
             scrolling="no"
-            onload="resizeIframe(this)"
         ></iframe>
     </div>
     <!--Footer begins here-->
