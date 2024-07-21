@@ -49,11 +49,6 @@ author-about: I am a graduate researcher in the<a href="https://www.howlandlab.c
 # URL to the Author's Profile (i.e., Github, Twitter, Stackoverflow, etc)
 author-url: https://github.com/thedevslot
 
-# Publications
-pub1_name: Wind Energy
-pub1_url: https://doi.org/10.1002/we.2917
-pub1_date: 01 June 2024
-
 # SASS
 sass:
   sass_dir: _sass
