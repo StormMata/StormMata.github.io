@@ -23,6 +23,15 @@ layout: compress
     </section>
     <!--Footer begins here-->
     {% include footer.html %}
+
+var pdf = new PDFObject({
+  url: "https://stormmata.github.io/assets/images/mata_cv.pdf",
+  id: "pdfRendered",
+  pdfOpenParams: {
+    view: "FitH"
+  }
+}).embed("pdfRenderer");
+    
 </body>
 
 </html>
@@ -43,12 +52,3 @@ layout: compress
         border: none;
     }
 </style>
-
-
-var pdf = new PDFObject({
-  url: "https://stormmata.github.io/assets/images/mata_cv.pdf",
-  id: "pdfRendered",
-  pdfOpenParams: {
-    view: "FitH"
-  }
-}).embed("pdfRenderer");
