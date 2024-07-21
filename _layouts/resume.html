@@ -12,13 +12,19 @@ layout: compress
         <div class="hero-body">
             <div class="container has-text-centered" id="page-section">
                 <div class="section">
-                    <div class="pdf-container">
-                      <iframe src="/assets/images/mata_cv.pdf" type="application/pdf">
-                        This browser does not support PDFs. Please download the PDF to view it: <a href="path/to/your-resume.pdf">Download Resume</a>.
-                      </iframe>
+                    <h1 class="title is-1 is-uppercase has-text-weight-bold">
+                        {{ page.title }}
+                    </h1>
+                    <hr class="has-background-black">
+                    <div class="content is-marginless">
+                        {{ content }}
                     </div>
-                    <div class="text-center">
-                      <p><a href="path/to/your-resume.pdf" class="button">Download Resume</a></p>
+
+                    <!-- PDF Viewer Section -->
+                    <div class="pdf-container">
+                        <iframe src="{{ site.baseurl }}/assets/pdf/your-resume.pdf" type="application/pdf">
+                            This browser does not support PDFs. Please download the PDF to view it: <a href="{{ site.baseurl }}/assets/pdf/your-resume.pdf">Download Resume</a>.
+                        </iframe>
                     </div>
                 </div>
             </div>
@@ -29,3 +35,20 @@ layout: compress
 </body>
 
 </html>
+
+<style>
+    .pdf-container {
+        width: 100%;
+        height: 600px;
+        overflow: hidden;
+        border: 1px solid #ddd;
+        border-radius: 8px;
+        margin-top: 20px; /* Adjust as needed */
+    }
+
+    .pdf-container iframe {
+        width: 100%;
+        height: 100%;
+        border: none;
+    }
+</style>
