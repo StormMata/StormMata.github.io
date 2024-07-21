@@ -1,6 +1,8 @@
 ---
 title: Modeling the effect of wind speed and direction shear on utility-scale wind turbine power production
 layout: post
+journal: Wind Energy
+j_url: https://doi.org/10.1002/we.2917
 post-image: /assets/images/shear_veer_2024.png
 description: "Authors: Storm A. Mata, Juan José Pena Martínez, Jesús Bas Quesada, Felipe Palou Larrañaga, Neeraj Yadav, Jasvipul S. Chawla, Varun Sivaram, and Michael F. Howland"
 tags:
