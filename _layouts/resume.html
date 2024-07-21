@@ -15,23 +15,19 @@ layout: compress
                     <h1 class="title is-1 is-uppercase has-text-weight-bold">
                         {{ page.title }}
                     </h1>
-                    <!-- PDF Viewer Section -->
-                    <div id="pdfRenderer"></div>
+                    <iframe
+                        src="https://stormmata.github.io/assets/images/mata_cv.pdf#toolbar=0&navpanes=0&scrollbar=0"
+                        frameBorder="0"
+                        scrolling="auto"
+                        height="100%"
+                        width="100%"
+                    ></iframe>
                 </div>
             </div>
         </div>
     </section>
     <!--Footer begins here-->
     {% include footer.html %}
-
-var pdf = new PDFObject({
-  url: "https://stormmata.github.io/assets/images/mata_cv.pdf",
-  id: "pdfRendered",
-  pdfOpenParams: {
-    view: "FitH"
-  }
-}).embed("pdfRenderer");
-    
 </body>
 
 </html>
