@@ -8,34 +8,29 @@ layout: compress
 
 <body>
     {% include navbar.html %}
-    <div class="content is-marginless">
-        <iframe
-            src="https://stormmata.github.io/assets/images/mata_cv.pdf#toolbar=0&navpanes=0&scrollbar=0"
-            frameBorder="0"
-            scrolling="auto"
-            height="100%"
-            width="100%"
-        ></iframe>
-    </div>
+    <section class="hero is-fullheight">
+        <div class="hero-body">
+            <div class="container has-text-centered" id="page-section">
+                <div class="section">
+                    <h1 class="title is-1 is-uppercase has-text-weight-bold">
+                        {{page.title}}
+                    </h1>
+                    <hr class="has-background-black">
+                    <div class="content is-marginless">
+                        <iframe
+                            src="https://stormmata.github.io/assets/images/mata_cv.pdf#toolbar=0&navpanes=0&scrollbar=0"
+                            frameBorder="0"
+                            scrolling="auto"
+                            height="100%"
+                            width="100%"
+                        ></iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
     <!--Footer begins here-->
     {% include footer.html %}
 </body>
 
 </html>
-
-<style>
-    .pdf-container {
-        width: 100%;
-        height: 600px;
-        overflow: hidden;
-        border: 1px solid #ddd;
-        border-radius: 8px;
-        margin-top: 20px; /* Adjust as needed */
-    }
-
-    .pdf-container iframe {
-        width: 100%;
-        height: 100%;
-        border: none;
-    }
-</style>
