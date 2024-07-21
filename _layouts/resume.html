@@ -6,17 +6,25 @@ layout: compress
 <html>
 {% include head.html %}
 
+<head>
+    <style>
+        .push-down {
+            margin-top: 25px; /* Adjust the value as needed */
+        }
+    </style>
+</head>
+
 <body>
     {% include navbar.html %}
-    <section class="hero is-fullheight">
-    <div class="pdf-container">
-        <iframe
-            src="https://stormmata.github.io/assets/images/mata_cv.pdf#navpanes=0&scrollbar=0"
-            frameBorder="0"
-            scrolling="no"
-        ></iframe>
+    <div class="push-down">
+        <div class="pdf-container">
+            <iframe
+                src="https://stormmata.github.io/assets/images/mata_cv.pdf#navpanes=0&scrollbar=0"
+                frameBorder="0"
+                scrolling="no"
+            ></iframe>
+        </div>
     </div>
-    </section>
     <!--Footer begins here-->
     {% include footer.html %}
 </body>
