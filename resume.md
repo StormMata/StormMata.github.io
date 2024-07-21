@@ -1,4 +1,4 @@
 ---
-title: CV_new
+title: Curriculum vitae
 layout: resume
 ---
