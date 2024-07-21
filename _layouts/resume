@@ -1,0 +1,32 @@
+---
+layout: compress
+---
+
+<!DOCTYPE html>
+<html>
+{% include head.html %}
+
+<body>
+    {% include navbar.html %}
+    <section class="hero is-fullheight">
+        <div class="hero-body">
+            <div class="container has-text-centered" id="page-section">
+                <div class="section">
+                    <h1>My Resume</h1>
+                    <div class="pdf-container">
+                      <iframe src="/assets/images/mata_cv.pdf" type="application/pdf">
+                        This browser does not support PDFs. Please download the PDF to view it: <a href="path/to/your-resume.pdf">Download Resume</a>.
+                      </iframe>
+                    </div>
+                    <div class="text-center">
+                      <p><a href="path/to/your-resume.pdf" class="button">Download Resume</a></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--Footer begins here-->
+    {% include footer.html %}
+</body>
+
+</html>
