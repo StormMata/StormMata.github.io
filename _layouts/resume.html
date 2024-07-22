@@ -11,6 +11,17 @@ layout: compress
         .push-down {
             margin-top: 51px; /* Adjust the value as needed */
         }
+        .pdf-container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh; /* Adjust to desired viewport height */
+        }
+        iframe {
+            border: none; /* Removes the border for a cleaner look */
+            height: 100vh; /* Adjust the height value as needed */
+            width: 75%; /* You can also adjust the width if necessary */
+        }
     </style>
 </head>
 
@@ -20,10 +31,6 @@ layout: compress
         <div class="pdf-container">
             <iframe
                 src="https://stormmata.github.io/assets/images/mata_cv.pdf#navpanes=0&scrollbar=0"
-                frameBorder="0"
-                scrolling="no"
-                height="150%"
-                width="75%"
             ></iframe>
         </div>
     </div>
